@@ -27,7 +27,7 @@ jobs:
     - name: Build Solution
       run: dotnet build --no-restore --configuration Release
 
-   
+     
 
   deploy:
     needs: build-test
@@ -44,5 +44,5 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Publish
-      run: dotnet publish cicdtestAPI/cicdtestAPI.csproj -c Release -o ./publish
+      run: dotnet publish ./cicdtestAPI/cicdtestAPI.csproj -c Release -o ./publish
  
