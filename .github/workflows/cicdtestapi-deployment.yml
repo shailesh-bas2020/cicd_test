@@ -21,11 +21,11 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Restore dependencies cicdtestAPI.csproj
+      run: dotnet restore ./cicdtestAPI/cicdtestAPI.csproj
 
-    - name: Build Solution
-      run: dotnet build --no-restore --configuration Release
+    - name: Build Project
+      run: dotnet build ./cicdtestAPI/cicdtestAPI.csproj --no-restore
 
      
 
