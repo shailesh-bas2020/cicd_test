@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zC2t2W8CcDZIU1/jZFtjiKIehnUkD3bDcOe0NaaIL9U=",
+  "Source": "cicdtestAPI",
+  "BasePath": "_content/cicdtestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
